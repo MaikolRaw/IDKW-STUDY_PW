@@ -1,0 +1,229 @@
+@font-face {
+    font-family:AlfaSlabOne-Regular;
+    src: url(/FONT/AlfaSlabOne-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    overflow: auto;
+    overflow: overlay;
+    }
+
+    .nav {
+    
+        background-color: black;
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        color: white;
+        justify-content:space-between;
+        align-items: center ;
+    }
+    .separador {
+    background-color: white;
+    width: 100vw;
+    height: 0.1vh;
+        
+    }
+    .nav-logo {
+        margin-left: 7rem;
+    }
+    .logo {
+        font-size: 2.2rem;
+        text-decoration: none;
+        color: white;
+    }
+    .nav-list {
+        list-style: none;
+        display: inline-flex
+    }
+    .list-text {
+    
+        margin-right: 6rem;
+        font-size: 2rem;
+        text-decoration: none;
+        color: white;
+    }
+    .nav-boton {
+      display: flex;
+      justify-content: center;
+        margin-right    : 20rem;
+      margin-bottom: 4rem;
+        
+        }
+        
+    
+    button.button1 {
+    font-family: 'Times New Roman', Times, serif;
+      text-decoration: none;
+      position: absolute;
+      border: none;
+      font-size: 14px;
+
+      color: white;
+      width: 25rem;
+      height: 4rem;
+      line-height: 2em;
+      text-align: center;
+      background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+      background-size: 300%;
+      border-radius: 30px;
+      z-index: 1;
+    
+     }
+     
+     button:hover {
+      animation: ani 8s linear infinite;
+      border: none;
+     }
+     
+     @keyframes ani {
+      0% {
+       background-position: 0%;
+      }
+     
+      100% {
+       background-position: 400%;
+      }
+     }
+     .button{
+        height: 3.5rem;
+        width: 20rem;
+    
+     }
+     .button:before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      z-index: -1;
+      background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+      background-size: 400%;
+      border-radius: 35px;
+      transition: 1s;
+     }
+     
+     .button:hover::before {
+      filter: blur(20px);
+     }
+     
+     .button:active {
+      background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+     }
+
+p {
+
+    color: black;
+}
+
+.univer{
+
+    width: 100vw;
+    height: 90vh;
+    background-image: url(/vecteezy_abstract-white-background-with-halftone-texture_6469271.jpg);
+    background-size: cover;
+
+}
+
+.universidades {
+
+    display: flex;
+    justify-content: center;
+   padding-top: 10rem;
+
+}
+
+
+
+/*Magic card*/
+.card {
+    border-radius: 3rem;
+    width: 25rem;
+    height: 35rem;
+    background: #f5f5f5;
+    overflow: visible;
+    box-shadow: 0 5px 20px 2px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 4rem;
+   }
+   
+   .card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 0 1rem;
+   }
+   
+   .card-img {
+    --size: 100px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    transform: translateY(-50%);
+
+    background-size: cover;
+    position: relative;
+    transition: all .3s ease-in-out;
+   }
+.card-img img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 4.5rem;
+
+}
+   
+   .card-img::before {
+    content: "";
+    border-radius: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    border: 1rem solid #e8e8e8;
+   }
+   
+   /*Text*/
+
+  a {
+text-decoration: none;
+
+   }
+   .text-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: red;
+
+   }
+   
+   .text-body {
+    text-align: justify;
+    font-size: 1.7rem;
+    padding: 0 0.1rem;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-style: italic;
+   }
+   
+   /*Hover*/
+   .card:hover .card-img {
+    --size: 110px;
+    width: var(--size);
+    height: var(--size);
+   }

@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+    <link rel="stylesheet" href="/css/contactame.css">
+</head>
+<body>
+
+    <section>
+        <nav class="nav">
+            <div class="nav-logo">
+                <A class="logo" HREF="/index.html">IDKW-STUDY </A>
+            </div>
+        <ol class="nav-list">
+            <li>
+                <A class="list-text" HREF="/index.html">INCIO </A>
+            </li>
+            <li>
+                <A class="list-text" HREF="/contacto.html">CONTACTAME U </A>
+            </li>
+        </ol>
+            <div class="nav-boton">
+              <button class="button1"> DESCUBRE TU FUTURO
+              </button>
+            </div>
+        </nav>
+        <div class="separador"></div>
+    </section>
+    
+    <div class="body1">
+        <div class="contact_form">
+
+            <div class="formulario">      
+              <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+        
+        
+                  <form action="submeter-formulario.php" method="post">       
+        
+                    
+                        <p>
+                          <label for="nombre" class="colocar_nombre">Nombre De La Universidad
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                      
+                        <p>
+                          <label for="email" class="colocar_email">Email De La Universidad
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+                    
+                        <p>
+                          <label for="telefone" class="colocar_telefono">Teléfono
+                          </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>    
+                      
+                        <p>
+                          <label for="website" class="colocar_website">Sitio web
+                          </label>
+                            <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                        </p>    
+                      
+                        <p>
+                          <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                        </p>    
+                      
+                        <p>
+                          <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                          </label>                     
+                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                        </p>                    
+                      
+                        <button class="bt1" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>          
+                    
+                  </form>
+            </div>  
+          </div>
+    </div>
+
+ 
+
+</body>
+</html>
