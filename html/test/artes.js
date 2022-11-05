@@ -23,8 +23,6 @@ labels=document.getElementById(id).childNodes;
 labels[3].style.backgroundColor = "White";
 labels[5].style.backgroundColor = "White";
 labels[7].style.backgroundColor = "White";
-labels[9].style.backgroundColor = "White";
-
 seleccionada.parentNode.style.backgroundColor = "#cec0fc";
 
 
@@ -40,6 +38,6 @@ for (i=0; i<correctas.length; i++) {
 
 }
 
-documen.getElementByIdt("resultado").innerHTML = cantidad_correctas;
+document.getElementByIdt("resultado").innerHTML = cantidad_correctas;
 
 }
