@@ -221,7 +221,8 @@ button {
       border-top: 30px solid skyblue;
       border-left: 30px solid transparent;
       border-right: 30px solid transparent;
-
+      margin-bottom: 1.5rem;
+    }
 
     
     
@@ -424,4 +425,5 @@ text-align: justify;
   border-bottom: 30px solid skyblue;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
+  margin-top: 1.5rem;
 }
