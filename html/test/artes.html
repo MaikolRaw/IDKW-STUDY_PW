@@ -1,11 +1,11 @@
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/test/artes.css">
-    <script src="test/artes.js"></script>
+
 </head>
 <body>
    
@@ -39,64 +39,70 @@
             culpa voluptatem eveniet vitae fuga sed.</P>
     </div>
 
-    <div class="container">
+ <div class="container">
+    <section id="p0">
+        <h3>1- ¿Prepararse para ser modelo profesional.?</h3>
+        <label >
+            <input type="radio" value="1" name="p0" onclick="respuesta(0,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p0" onclick="respuesta(0,this)">No Me Interesa
+        </label>
+        
+    </section>
 
-            <section id="p0">
-                <h3>1- ¿Prepararse para ser modelo profesional.?</h3>
-                <label>
-                    <input type="radio" value="1" name="p0" onclick="respuesta(0,this)">Me Interesa
-                </label>
-                <label>
-                    <input type="radio" value="2" name="p0" onclick="respuesta(0,this)">No Me Interesa
-                </label>
-            </section>
+    <section id="p1">
+        <h3>2- Fotografiar hechos históricos, lugares significativos, rostros, paisajes para el área publicitaria, artística, periodística y social.?</h3>
+        <label>
+            <input type="radio" value="1" name="p1" onclick="respuesta(1,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p1" onclick="respuesta(1,this)">No Me Interesa
+        </label>
+    </section>
 
-            <section id="p1">
-                <h3>2- Fotografiar hechos históricos, lugares significativos, rostros, paisajes para el área publicitaria, artística, periodística y social.?</h3>
-                <label>
-                    <input type="radio" value="1" name="p1" onclick="respuesta(1,this)">Me Interesa
-                </label>
-                <label>
-                    <input type="radio" value="2" name="p1" onclick="respuesta(1,this)">No Me Interesa
-                </label>
-            </section>
+    <section id="p2">
+        <h3>3- Restaurar piezas y obras de arte.?</h3>
+        <label>
+            <input type="radio" value="1" name="p2" onclick="respuesta(2,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p2" onclick="respuesta(2,this)">No Me Interesa
+        </label>
+    </section>
 
-            <section id="p2">
-                <h3>3- Restaurar piezas y obras de arte.?</h3>
-                <label>
-                    <input type="radio" value="1" name="p2" onclick="respuesta(2,this)">Me Interesa
-                </label>
-                <label>
-                    <input type="radio" value="2" name="p2" onclick="respuesta(2,this)">No Me Interesa
-                </label>
-            </section>
+    <section id="p3">
+        <h3>4- Redactar guiones y libretos para un programa de televisión.?</h3>
+        <label>
+            <input type="radio" value="1" name="p3" onclick="respuesta(3,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p3" onclick="respuesta(3,this)">No Me Interesa
+        </label>
+    </section>
 
-            <section id="p3">
-                <h3>4- Redactar guiones y libretos para un programa de televisión.?</h3>
-                <label>
-                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)">Me Interesa
-                </label>
-                <label>
-                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)">No Me Interesa
-                </label>
-            </section>
+    <section id="p4">
+        <h3>5- Trabajar como presentador de televisión, locutor de radio y televisión, animador de programas culturales y concurso.?</h3>
+        <label>
+            <input type="radio" value="1" name="p4" onclick="respuesta(4,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p4" onclick="respuesta(4,this)">No Me Interesa
+        </label>
+    </section>
+ </div>
 
-            <section id="p4 ">
-                <h3>5- Trabajar como presentador de televisión, locutor de radio y televisión, animador de programas culturales y concurso.?</h3>
-                <label>
-                    <input type="radio" value="1" name="p4" onclick="respuesta(4,this)">Me Interesa
-                </label>
-                <label>
-                    <input type="radio" value="2" name="p4" onclick="respuesta(4,this)">No Me Interesa
-                </label>
-            </section>
 
-    <div class="rp">
-        <button onclick="corregir()">Recomendar Carreras</button>
-        <h2>CARRERAS A FIN: <span id="resultado"></span></h2>
-    </div>
-       
+   
+<div class="ss">
+    <button onclick="corregir()">Recomendar Carreras</button>
+    <h2>CARRERAS A FIN: <span id="resultado"></span></h2>
+</div>
+        
+
+    
 
 
 </body>
+<script src="/html/test/artes.js"></script>
 </html>
