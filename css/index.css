@@ -356,6 +356,10 @@ body .container .card .box .content p {
   color: blac;
   z-index: 1;
   transition: 0.5s;
+  text-align: justify;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+
 }
 
 body .container .card .box .content a {
