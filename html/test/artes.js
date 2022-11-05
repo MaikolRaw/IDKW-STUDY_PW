@@ -1,6 +1,6 @@
 //arreglo que contiene las respuestas correctas
 
-let correctas = [1,1,1,1,1];
+let correctas = [1,1,1,1,1,1,1,1,1,1];
 
 //arreglo guardas respuestas 
 
@@ -38,5 +38,21 @@ for (i=0; i<correctas.length; i++) {
 }
 
 document.getElementById("resultado").innerHTML = cantidad_correctas;
+
+if (cantidad_correctas<=4) {
+    baja="Tienes una compatibilidad muy BAJA. Deberias considerar realizar otros TEST:"
+    document.getElementById("rp1").innerHTML=baja;
+
+}
+
+
+if (cantidad_correctas>=5){
+
+    alta="Diseño gráfico, diseño y decoración de interiores, diseño de jardines, diseño de modas, diseño de joyas, artes plásticas (pintura, escultura, danza, teatro, artesanía, cerámica), dibujo publicitario, restauración y museología, modelaje, fotografía, gestión gráfica y publicitaria, locución y publicidad, actuación, camarógrafa, arte industrial, producción audiovisual y multimedia, comunicación y producción en radio y televisión, diseño del paisaje, cine y video,comunicación escénica para televisión, música";
+
+    document.getElementById("rp1").innerHTML=alta;
+
+}
+
 
 }

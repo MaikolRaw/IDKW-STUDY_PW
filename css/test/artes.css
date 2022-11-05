@@ -181,20 +181,45 @@ border-radius: 0.7rem;
 cursor: pointer;
 border: 0.1rem dashed #ccc;
 margin-bottom: 0.3rem;
-
+font-size: 1.7rem;
+margin-bottom: 1rem;
 }
 .container label:hover {
     background: #03a9f4;
 }
+.container h3 {
+font-size: 1.7rem;
+padding-bottom: 2rem;
+
+}
 .rp{
-    margin: 5rem  0;
+    
+    width: 100vw;
+    height: 20vh;
+
+}
+.rp1 {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    padding: 0 30rem;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    
+}
+.caja {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 100%;
+    background-color: white;
 }
 .rp button {
-width: 80%;
+width: 30%;
 display: block;
 margin: 2rem auto;
 padding: 10px;
-background-color: #76d7c8;
+background-color: skyblue;
 border: none;
 cursor: pointer;
 border-radius: 20px;
@@ -208,10 +233,17 @@ border-radius: 20px;
 }
 
 .rp h2 {
+    color: black;
+font-size: 2rem;
 text-align: center;
-
+margin-bottom: 3rem;
+margin-top: 0.5rem;
 }
 #resultado {
 
-    color: darkred;
+    color: red;
+}
+#rp1{
+        
+    color: darkgreen;
 }
