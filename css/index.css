@@ -193,23 +193,40 @@ button {
 
 }
 .caja-siguiente{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
     width:100%;
     height: 100%;
     background-color: black;
     opacity: 100%;
 }
 .caja-text {
-    
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 .siguiente-texto {
-    position: absolute;
-    bottom: 9rem;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    }
+
+
+    .to_bottom {
+      width: 0;
+      height: 0;
+      border-top: 30px solid skyblue;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+
+
+    
+    
+
+    
 }.siguiente-texto1  {
     position: absolute;
     bottom: 3rem;
@@ -219,6 +236,12 @@ button {
 
 .sec2 {
 
+width: 100vw;
+height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center
 
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
@@ -350,4 +373,55 @@ body .container .card .box .content a:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   background:#fff;
   color: white;
+}
+/* SEC 3 */
+.sec3 {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+
+}
+
+.somo-text {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100vw;
+  height: 35vh;
+  background-color: white;
+  padding: 5rem;
+}
+.somo-text h1 {
+font-size: 5rem;
+text-align: justify;
+align-items: center;
+
+}
+.somo-text p {
+
+  font-size: 2rem;
+  margin: 5rem 25rem;
+text-align: justify;
+  
+}
+.somos img {
+  width: 100vw;
+  height: 55vh;
+  position: relative;
+}
+.fl{
+  display: flex;
+  justify-content: center;
+}
+.to_top {
+  margin-top: 4rem;
+  display: flex;
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid skyblue;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
 }
