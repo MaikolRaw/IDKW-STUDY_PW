@@ -1,0 +1,218 @@
+
+
+:root {
+    --primary-color: white;
+}
+@font-face {
+  font-family:AlfaSlabOne-Regular;
+  src: url(/FONT/AlfaSlabOne-Regular.ttf);
+}
+
+
+body {
+  overflow: auto;
+  overflow: overlay;
+  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+.nav {
+    
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    justify-content:space-between;
+    align-items: center ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.separador {
+background-color: white;
+width: 100vw;
+height: 0.1vh;
+    
+}
+.nav-logo {
+    margin-left: 7rem;
+}
+.logo {
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-list {
+    list-style: none;
+    display: inline-flex
+    
+}
+.list-text {
+
+    margin-right: 6rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-boton {
+  display: flex;
+  justify-content: center;
+    margin-right    : 33rem;
+  margin-bottom: 4rem;
+    
+    }
+    
+    
+
+.button1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  position: absolute;
+  border: none;
+  font-size: 14px;
+
+  color: white;
+  width: 25rem;
+  height: 4rem;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+
+ }
+ 
+ .button1:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+ }
+ 
+ @keyframes ani {
+  0% {
+   background-position: 0%;
+  }
+ 
+  100% {
+   background-position: 400%;
+  }
+ }
+ .nav-button{
+    height: 3.5rem;
+    width: 20rem;
+
+ }
+ .nav-button:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+ }
+ 
+ .nav-button:hover::before {
+  filter: blur(20px);
+ }
+ 
+ .nav-button:active {
+  background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+ }
+
+ /*Carta*/
+
+ .test-selection {
+    background-image: url(/Test.png);
+    background-size: cover;
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height: 90vh;
+ }
+ .card {
+    width: 25rem   ;
+    height: 35rem;
+    background: white;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 10rem auto;
+    flex-direction: column;
+    padding: 4rem;
+  }
+  
+  .card h2{
+    text-align: center;
+    z-index: 1;
+    color: black;
+    font-size: 2rem;
+  }
+  a{
+    z-index: 1;
+  }
+  .card button{
+    z-index: 1;
+    width: 17rem;
+    height: 3.5rem;
+    background-color: black;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    color: white;
+  }
+  .card p {
+    text-align: justify;
+    z-index: 1;
+    color: black;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  }
+  
+  @keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .card::after {
+    content: '';
+    position: absolute;
+    background: whitesmoke;
+    ;
+    inset: 5px;
+    border-radius: 15px;
+    display: flex;
+  }  
+
+  .card-text {
+    color: white;
+    
+
+  }
