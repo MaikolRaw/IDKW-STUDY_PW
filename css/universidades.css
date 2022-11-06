@@ -129,7 +129,8 @@ p {
 
     width: 100vw;
     height: 90vh;
-    background-image: url(/vecteezy_abstract-white-background-with-halftone-texture_6469271.jpg);
+    background-image: url(/img/U.jps.jpg);
+    background-color: white;
     background-size: cover;
 
 }
@@ -149,7 +150,7 @@ p {
     border-radius: 3rem;
     width: 25rem;
     height: 35rem;
-    background: #f5f5f5;
+    background: #D0F2D9;
     overflow: visible;
     box-shadow: 0 5px 20px 2px rgba(0,0,0,0.1);
     display: flex;
@@ -207,16 +208,20 @@ text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
-    color: red;
+    color: #8C5D5F  ;
+
+   }
+   .text-title:hover {
+
+    color: rgb(171, 0, 0);
 
    }
    
    .text-body {
     text-align: justify;
     font-size: 1.7rem;
-    padding: 0 0.1rem;
-    text-align: center;
-    color: black;
+    padding: 0 0.5rem;
+    color: #4D5950;
     font-weight: 400;
     font-style: italic;
    }
