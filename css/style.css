@@ -155,7 +155,7 @@ button {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-   /position: absolute ;
+   position: absolute ;
     font-size: 7.5rem;
     font-family: AlfaSlabOne-Regular;
     margin-top: -30rem;
