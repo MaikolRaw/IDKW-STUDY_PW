@@ -1,0 +1,170 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/test/CIENCIAS-SOCIALES.CSS">
+
+</head>
+<body>
+   
+    <section>
+        <nav class="nav" id="nav">
+            <div class="nav-logo">
+                <A class="logo" HREF="/index.html">IDKW-STUDY </A>
+            </div>
+        <ol class="nav-list">
+            <li>
+                <A class="list-text" HREF="/index.html">INCIO </A>
+            </li>
+            <li>
+              <A class="list-text" HREF="/html/contacto.html">CONTACTAME U </A>
+            </li>
+        </ol>
+            <div class="nav-boton">
+              <a href="/html/test.html"> <button class="bt">DESCUBRE TU FUTURO</button></a>
+            </div>
+        </nav>
+        <div class="separador"></div>
+    </section>
+
+
+
+    <div class="tt">
+        <h1>BIENVENIDO TEST DE AFINIDAD CIENCIAS SOCIALES</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Possimus quod commodi perspiciatis ratione reprehenderit.
+              Eos perferendis fugit in ab, inventore tenetur maiores cum veritatis, 
+            culpa voluptatem eveniet vitae fuga sed.</P>
+    </div>
+
+ <div class="container">
+    <section id="p0">
+        <h3>1- Organizar eventos y atender a sus asistentes?</h3>
+        <label >
+            <input type="radio" value="1" name="p0" onclick="respuesta(0,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p0" onclick="respuesta(0,this)">No Me Interesa
+        </label>
+        
+    </section>
+
+    <section id="p1">
+        <h3>2- Defender a clientes individuales o empresas en juicios de diferente naturaleza?</h3>
+        <label>
+            <input type="radio" value="1" name="p1" onclick="respuesta(1,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p1" onclick="respuesta(1,this)">No Me Interesa
+        </label>
+    </section>
+
+    <section id="p2">
+        <h3>3- Realizar excavaciones para descubrir restos del pasado?</h3>
+        <label>
+            <input type="radio" value="1" name="p2" onclick="respuesta(2,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p2" onclick="respuesta(2,this)">No Me Interesa
+        </label>
+    </section>
+
+    <section id="p3">
+        <h3>4- Estudiar la diversidad cultural en el ámbito rural y urbano?</h3>
+        <label>
+            <input type="radio" value="1" name="p3" onclick="respuesta(3,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p3" onclick="respuesta(3,this)">No Me Interesa
+        </label>
+    </section>
+
+    <section id="p4">
+        <h3>5- Diseñar programas educativos para niños con discapacidad?</h3>
+        <label>
+            <input type="radio" value="1" name="p4" onclick="respuesta(4,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p4" onclick="respuesta(4,this)">No Me Interesa
+        </label>
+    </section>
+    <section id="p5">
+        <h3>6- Gestionar y evaluar convenios internacionales de cooperación para el desarrollo social?</h3>
+        <label>
+            <input type="radio" value="1" name="p5" onclick="respuesta(5,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p5" onclick="respuesta(5,this)">No Me Interesa
+        </label>
+    </section>
+
+    </section>
+                <section id="p6">
+        <h3>7- Investigar las causas y efectos de los trastornos emocionales de las personas?</h3>
+        <label>
+            <input type="radio" value="1" name="p6" onclick="respuesta(6,this)">Me Interesa
+        </label>
+        <label>
+            <input type="radio" value="2" name="p6" onclick="respuesta(6,this)">No Me Interesa
+        </label>
+    </section>
+
+</section>
+<section id="p7">
+<h3>8- Diseñar y ejecutar programas de turismo?</h3>
+<label>
+<input type="radio" value="1" name="p7" onclick="respuesta(7,this)">Me Interesa
+</label>
+<label>
+<input type="radio" value="2" name="p7" onclick="respuesta(7,this)">No Me Interesa
+</label>
+</section>
+
+
+<section id="p8">
+<h3>9- Gestionar y evaluar proyectos de desarrollo en una institución educativa y/o fundación?</h3>
+<label>
+<input type="radio" value="1" name="p8" onclick="respuesta(8,this)">Me Interesa
+</label>
+<label>
+<input type="radio" value="2" name="p8" onclick="respuesta(8,this)">No Me Interesa
+</label>
+</section>
+
+
+<section id="p9">
+<h3>10- Conocer las distintas religiones (su filosofía) y transmitirlas a la comunidad en general?</h3>
+<label>
+<input type="radio" value="1" name="p9" onclick="respuesta(9,this)">Me Interesa
+</label>
+<label>
+<input type="radio" value="2" name="p9" onclick="respuesta(9,this)">No Me Interesa
+</label>
+</section>
+
+
+ </div>
+
+
+   
+<div class="rp">
+    <button onclick="corregir()">Recomendar Carreras</button>
+    <div class="rp1">
+        <h2>TU GRADO DE AFINIDAD ES: <span id="resultado" ></span></h2>
+        <h2>ESTAS CARRERAS PUEDEN SER DE TU INTERES: <br> <br> <span id="rp1"></span></h2>
+
+    </div>
+
+    </div>
+
+</div>
+        
+
+    
+
+
+</body>
+<script src="/html/test/ciencias-sociales.js"></script>
+</html>
