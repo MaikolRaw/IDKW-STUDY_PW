@@ -151,10 +151,11 @@ button {
 } 
 
 .home-text{
-
     align-items: center;
     color: transparent;
-   /* position: absolute ;*/
+    background-clip: text;
+    -webkit-background-clip: text;
+   /position: absolute ;
     font-size: 7.5rem;
     font-family: AlfaSlabOne-Regular;
     margin-top: -30rem;
@@ -165,8 +166,7 @@ button {
     background-size: cover;
     text-transform: uppercase;
     background-position-y: -35rem;
-    background-clip: text;
-    -webkit-background-clip: text;
+
     
 }  
 .home-text1 {
