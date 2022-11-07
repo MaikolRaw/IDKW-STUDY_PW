@@ -218,8 +218,8 @@ text-decoration: none;
    }
    
    .text-body {
-    text-align: justify;
-    font-size: 1.7rem;
+    text-align: center;
+    font-size: 1.5rem;
     padding: 0 0.5rem;
     color: #4D5950;
     font-weight: 400;
