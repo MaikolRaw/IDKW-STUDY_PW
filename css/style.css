@@ -397,20 +397,26 @@ body .container .card .box .content a:hover {
   width: 100vw;
   height: 35vh;
   background-color: white;
-  padding: 5rem;
+  padding: 1.7rem 5rem;
 }
 .somo-text h1 {
 font-size: 5rem;
 text-align: justify;
 align-items: center;
+margin-bottom: ;
 
 }
 .somo-text p {
 
   font-size: 2rem;
-  margin: 5rem 25rem;
-text-align: justify;
+  margin: 3rem 25rem;
+text-align: center;
   
+}
+.somo-text h2 {
+  font-size: 2.8rem;
+  margin-bottom: 5rem;
+  color: #6976AA;
 }
 .somos img {
   width: 100vw;
